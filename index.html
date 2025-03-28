@@ -1,41 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="header"></header>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>atividade</title>
+</head>
+<body>
+  <header>
+    <h1>Meu Site Responsivo</h1>
+    <p>Explore para ver como ele se adapta a diferentes tamanhos de tela.</p>
+  </header>
 
-    <nav class="nav"></nav>
-    <div class="container">
-      <main class="main">
-        <section class="section section--primary">
-          <h2>Sessão 1</h2>
-        </section>
-        <section class="section section--secondary">
-          <h2>Sessão 2</h2>
-        </section>
-        <section class="section section--contact">
-          <h2>Contato</h2>
-        </section>
-      </main>
+  <nav class="menu">
+    <div class="linha">Linha 1</div>
+    <div class="linha">Linha 2</div>
+    <div class="linha">Linha 3</div>
+    <div class="linha">Linha 4</div>
+  </nav>
+  
+  <div class="container">
+    <main>
+      <section class="sessao">
+        <h2>Sessão 1</h2>
+        <p>Conteúdo da sessão 1...</p>
+      </section>
+      <section class="sessao">
+        <h2>Sessão 2</h2>
+        <p>Conteúdo da sessão 2...</p>
+      </section>
+      <section class="contato">
+        <h2>Contato</h2>
+        <form>
+          <input type="text" placeholder="Seu nome..." />
+          <input type="email" placeholder="Seu email..." />
+          <textarea placeholder="Sua mensagem..."></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
 
-      <aside class="aside">
-        <article class="article article--aboutme">
-          <h2>Sobre mim</h2>
-        </article>
-        <article class="article article--popularpost">
-          <h2>Postagens Populares</h2>
-        </article>
-        <article class="article article--socialmedia">
-          <h2>Redes Sociais</h2>
-        </article>
-      </aside>
-    </div>
+    <aside>
+      <div class="sobre">
+        <h3>Sobre Mim</h3>
+        <p>Texto sobre mim...</p>
+      </div>
+      <div class="postagens">
+        <h3>Postagens Populares</h3>
+        <p>Postagem 1</p>
+        <p>Postagem 2</p>
+      </div>
+      <div class="redes">
+        <h3>Redes Sociais</h3>
+        <p>Links...</p>
+      </div>
+    </aside>
+  </div>
 
-    <footer></footer>
-  </body>
+  <footer>
+    <p>Desenvolvido por Anderson Araújo</p>
+  </footer>
+</body>
 </html>
